@@ -21,6 +21,8 @@ import hosiyar from './hosiyar.jpg';
 import banner1 from './banner 1.jpg';
 import banner2 from './banner 2.jpg';
 import vishal from './vishal.jpg'
+import varun from './pic.png';
+import banner3 from './banner 3.png';
 
 export const assets = {
   registration_img,
@@ -34,6 +36,7 @@ export const assets = {
   testimonials,
   banner1,
   banner2,
+  banner3,
   error,
   hosiyar,
   parishkar,
@@ -44,7 +47,8 @@ export const assets = {
   siddhi,
   priyanka,
   mittesh,
-  vishal
+  vishal,
+  varun
 };
 
 export const cardData = [
@@ -65,7 +69,7 @@ export const cardData = [
   },
   {
     title: "Varun Singh",
-    image: mittesh,
+    image: varun,
     description: "President",
   },
   {

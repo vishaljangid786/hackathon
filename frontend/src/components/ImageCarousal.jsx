@@ -5,7 +5,7 @@ const ImageCarousel = () => {
   const images = [
     assets.banner1,
     assets.banner2,
-    "https://www.sih.gov.in/img1/slider/sih-warning-slider.png",
+    assets.banner3,
     "https://www.sih.gov.in/img1/slider/sih-hackathon-process.png",
   ];
 
@@ -34,7 +34,7 @@ const ImageCarousel = () => {
             key={index}
             src={image}
             alt={`Slide ${index + 1}`}
-            className="min-w-[100vw] object-center"
+            className="min-w-full object-center"
           />
         ))}
       </div>
